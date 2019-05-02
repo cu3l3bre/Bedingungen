@@ -25,11 +25,18 @@ int main()
 		cout << "Das Passwort ist falsch!" << endl;
 	}
 
+	bool IstRichting;
 
+	IstRichting = EingabePasswort == AktPasswort;
 
-
-
-	cout << "Ende" << endl;
+	if (IstRichting)
+	{
+		cout << "Das Passwort ist richtig!" << endl;
+	}
+	else
+	{
+		cout << "Das Passwort ist falsch!" << endl;
+	}
 
 
 
